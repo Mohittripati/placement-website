@@ -1,0 +1,269 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav{
+  width: 100%;
+  height: 60px;
+  background:grey;
+  display: flex;
+  align-items: center;
+  float:left;
+  justify-content:space-between;
+  
+}
+
+.heading{
+  margin-left: 40px;
+  color: #1ede9e;
+  font-size: 22px;
+}
+.navList{
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  list-style: none;
+}
+
+
+
+.navList a{
+  text-decoration: none;
+ margin-left: 30px;
+ color: aliceblue;
+ font-size: 20px;
+}
+
+.navList a:hover{
+  color: rgb(227, 188, 33);
+}
+
+.head{
+  width: 100%;
+  height: 180px;
+  background-color: #444452;
+}
+
+.topicName{
+  color: rgba(252, 239, 239, 0.99);
+  display: flex;
+  width: 80%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+i{
+  color: #1ede9e;
+  font-weight: 10;
+  font-size: 14px;
+}
+.calcIcon{
+  font-size: 28px;
+}
+.icon{
+  font-size: 22px;
+}
+
+.topicName span{
+  color: #1ede9e;
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+.status{
+  width: 100%;
+  height: 100px;
+}
+
+#statusItems{
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#statusItems li a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 1500;
+  margin: 5px;
+ 
+}
+
+#statusItems #pageNum{
+  color: #1ede9e;
+}
+
+
+
+.container{
+  width: 100%;
+  height: auto;
+  background-color: #444452;
+  color: white;
+  border-top: 2px dashed  #1ede9e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.subContainer{
+  width: 80%;
+
+  padding:10px 20px 20px 20px;
+  
+  }
+  
+  section{
+    padding-bottom: 15px;
+    border-bottom:  2px solid #1ede9e;
+    
+    }
+    
+    #queNum{
+      text-align: center;
+      text-decoration-line: underline;
+      padding-bottom: 7px;
+      color: #1ede9e;
+      }
+      
+      #queNum i{
+  color: rgb(154, 215, 22);
+  font-size: 28px;
+}
+
+.question{
+  font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .options p{
+      font-size: 20px;
+      margin-bottom: 10px;
+      
+    }
+
+    .options p:hover{
+     cursor: pointer;
+     color: #1ede9e;
+     color:rgb(161, 214, 17);
+     i{
+      color:rgb(161, 214, 17);
+     }
+
+    }
+
+
+    .options i{
+      font-size: 23px;
+    }
+
+    .options i::after{
+     content: '.';
+     font-size: 30px;
+     
+    }
+    .solution{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .solution button{
+        width: 20%;
+        height: 40px;
+        border-radius:60px;
+        font-size: 20px;
+        font-weight: 500;
+        background: transparent;
+        color: white;
+        
+      }
+
+      .solution button:hover{
+        background: #1ede9e;
+        cursor: pointer;
+      }
+
+
+     .explanation{
+      width: 100%;
+      min-height: 300px;
+      background:transparent;
+      margin-top: 20px;
+      border: 1px solid whitesmoke;
+      border-radius: 5px;
+      color: rgb(222, 222, 219);
+      padding: 10px;
+      box-shadow: 0px 1px 5px 5px rgba(240,228,240,1);
+      overflow: hidden;
+     }
+
+      .ansHead,.expHead{
+        color: #1ede9e;
+        margin-top: 20px;
+        text-decoration-line: underline;
+        
+      }
+
+      .correctOpt{
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration-line: none;
+      }
+
+      .para{
+        font-size: 20px;
+        margin-top: 10px;
+      }
+
+
+
+
+
+
+      footer{
+        background-color: grey;
+        height: 50px;
+        position: relative;
+        bottom: 18px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+       
+      .pagination{
+        width: 100%;
+        text-align: center;
+      }
+
+      .pagination a{
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        padding-bottom: 20px;
+      }
+
+       .pagination .arrow{
+        font-size: 27px;
+        color: #1ede9e;
+       }
+
