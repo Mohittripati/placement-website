@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* :root{
+ 
+  --icon:
+  <i class="fa-solid fa-book"></i>;
+} */
+
+nav{
+  width: 100%;
+  height: 60px;
+  background:grey;
+  display: flex;
+  align-items: center;
+  float:left;
+  justify-content:space-between;
+  
+}
+
+.heading{
+  margin-left: 40px;
+  color: #1ede9e;
+}
+.navList{
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+  list-style: none;
+}
+
+.navList a{
+  text-decoration: none;
+ margin: 30px;
+ color: aliceblue;
+ font-size: 20px;
+}
+
+.navList a:hover{
+  color: rgb(227, 188, 33);
+}
+
+.container{
+  background:linear-gradient(45deg,#84840299,#1ede9e80,#44773278);
+  width: 100%;
+  height: 100vh;
+  display:grid;
+  grid-template-columns: repeat(3,minmax(200px,400px));
+  /* grid-template-rows: 100px 100px; */
+  column-gap: 20px;
+  justify-content: center;
+  /* align-items: center; */ 
+}
+
+.item{
+  margin-top: 40px;
+  background:linear-gradient(45deg,#9a3737bb,#847398d4,#743655c6);
+ border-radius: 10px;
+
+}
+.item h3{
+  margin: 20px 0px 20px 40px;
+  font-size: 25px;
+  color: #1ede9e;
+}
+.item4,.item5,.item6{
+  margin-bottom: 40px;
+}
+ul{
+  list-style: none;
+}
+
+.item ul li a {
+  /* display: flex;
+  align-items: space-evenly;
+  justify-content: center;
+  flex-direction: column; */
+  margin-left: 40px;
+  margin-top: 10px;
+  display: flex;
+  align-content:space-evenly ;
+   font-size: 18px;
+   text-decoration: none;
+color: white;
+}
+.item ul li a:hover{
+  color: rgb(21, 21, 21);
+  font-size: 20px;
+}
+
